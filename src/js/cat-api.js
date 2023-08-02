@@ -1,6 +1,6 @@
 import Notiflix from 'notiflix';
-const BASE_URL = 'https://api.thecatapi.com/v1';
-const END_POINT = '/breed';
+const BASE_URL = 'https://api.thecatapi.com';
+const END_POINT = '/v1/breed';
 const API_KEY =
   'live_kDC2Z3kSuo8sUbwPoAxUKSOmuaiBzC4iQtpfxde71TWhSU6Il9rdOVbwv02SNec0';
 
