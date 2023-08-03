@@ -1,12 +1,9 @@
 .breed-select {
   max-width: 450px;
 }
-cat-info {
+.cat-info {
   position: relative;
-  /* display: flex;
-    flex-direction: row; */
   max-width: 100%;
-  height: 450px;
   margin-top: 40px;
 }
 
@@ -17,8 +14,8 @@ cat-info {
   padding-top: 20px;
   row-gap: 20px;
 }
-full-name {
-  font-size: xx-large;
+.breed {
+  font-size: large;
   font-weight: 800;
 }
 .temperament {
@@ -26,7 +23,7 @@ full-name {
 }
 
 .loader {
-  color: #fff;
+  color: #333;
   display: inline-block;
   position: relative;
   font-size: 48px;
@@ -56,7 +53,6 @@ full-name {
     box-shadow: 10px 0 white, 20px 0 white;
   }
 }
-
 .is-hidden {
   position: absolute;
   width: 1px;
@@ -69,10 +65,7 @@ full-name {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.cat-info {
-  margin-left: 20px;
-}
 
-.breed {
-  margin-top: 0px;
+.cat-image {
+  width: 100%;
 }
